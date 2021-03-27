@@ -62,7 +62,7 @@ class AuthController extends Controller
             'meta' => [
                 'access_token' => $token,
                 'token_type' => 'bearer',
-                'expires_in' => 60 * 24
+                'expires_in' => 60 * 60 * 24
             ]
         ]);
     }
